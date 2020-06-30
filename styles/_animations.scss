@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(-45deg, #fcf7d5, #f9ded7, #f5cdde, #e2bef1, #cce1f2, #c6f8e5);
+  background-size: 2000% 1000%;
+  position: relative;
+  animation: change 20s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

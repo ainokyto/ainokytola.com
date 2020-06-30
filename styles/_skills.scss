@@ -2,15 +2,27 @@ $offwhite: #fffafa;
 
 #skills {
   position: relative;
-  height: 120vh;
-  background-color: $offwhite;
-  ul li {
-    list-style-type: none;
-    margin: 0;
+  height: 110vh;
+  width: 100%;
+  // background-color: $offwhite;
+  h2 {
+    padding-top: 24vh !important;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 30% 0 0;
     padding: 0;
   }
+  li {
+    list-style-type: none;
+    width: 80px;
+    margin: 15px 20px;
+    text-align: center;
+    font-weight: 200;
+  }
   svg {
-    max-height: 2rem;
-    max-width: 2rem;
+    max-height: 3rem;
+    max-width: 3rem;
   }
 }

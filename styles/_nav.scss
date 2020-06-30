@@ -21,8 +21,11 @@ $offwhite: #fffafa;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     &:hover {
+      transition: 100ms ease-in;
+      text-align: center;
       border-top-left-radius: 25px;
       border-bottom-left-radius: 25px;
+      transform: translateX(4px);
     }
   }
 }

@@ -3,20 +3,22 @@ $serif: 'Playfair Display', serif;
 
 header {
   position: relative;
+  height: 110vh;
   width: 100%;
-  height: 120vh;
-  background-color: $offwhite;
+  // background-color: $offwhite;
     h1 {
       font-family: $serif;
       font-style: italic;
       font-size: 3rem;
       font-weight: 600;
-      padding-top: 40%;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      padding-top: 30vh;
       margin: 0;
-      letter-spacing: 3px;
     }
     p {
       margin-right: 10%;
       font-style: italic;
+      font-weight: 400;
     }
 }

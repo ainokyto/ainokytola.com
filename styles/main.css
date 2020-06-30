@@ -2,6 +2,11 @@
   font-size: 20px;
 }
 
+* {
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,23 +16,19 @@ html {
   height: 100vh;
 }
 
-* {
-  font-weight: 200;
-  font-family: "Montserrat", sans-serif;
+h2 {
+  padding-top: 33vh;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1.5em;
+  letter-spacing: 2px;
 }
 
 body {
   color: #252422;
-  background-color: #fffafa;
   margin: 0 0 0 25%;
   padding: 0;
-}
-
-h2, h3 {
-  margin: 0;
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  letter-spacing: 1px;
 }
 
 #navbar {
@@ -52,69 +53,100 @@ h2, h3 {
   border-bottom-right-radius: 25px;
 }
 #navbar a:hover {
+  transition: 100ms ease-in;
+  text-align: center;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
+  transform: translateX(4px);
 }
 
 header {
   position: relative;
+  height: 110vh;
   width: 100%;
-  height: 120vh;
-  background-color: #fffafa;
 }
 header h1 {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 3rem;
   font-weight: 600;
-  padding-top: 40%;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding-top: 30vh;
   margin: 0;
-  letter-spacing: 3px;
 }
 header p {
   margin-right: 10%;
   font-style: italic;
+  font-weight: 400;
 }
 
 #skills {
   position: relative;
-  height: 120vh;
-  background-color: #fffafa;
+  height: 110vh;
+  width: 100%;
 }
-#skills ul li {
-  list-style-type: none;
-  margin: 0;
+#skills h2 {
+  padding-top: 24vh !important;
+}
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 30% 0 0;
   padding: 0;
 }
+#skills li {
+  list-style-type: none;
+  width: 80px;
+  margin: 15px 20px;
+  text-align: center;
+  font-weight: 200;
+}
 #skills svg {
-  max-height: 2rem;
-  max-width: 2rem;
+  max-height: 3rem;
+  max-width: 3rem;
 }
 
 #work {
   position: relative;
-  height: 120vh;
+  height: 110vh;
   width: 100%;
-  background-color: #fffafa;
 }
 
 #about {
   position: relative;
-  height: 120vh;
+  height: 110vh;
   width: 100%;
-  background-color: #fffafa;
 }
 
 footer {
   position: relative;
+  height: 110vh;
   width: 100%;
-  height: 120vh;
-  background-color: #252422;
   color: #fffafa;
 }
 footer svg {
   max-height: 2rem;
   max-width: 2rem;
+}
+
+body {
+  background: linear-gradient(-45deg, #fcf7d5, #f9ded7, #f5cdde, #e2bef1, #cce1f2, #c6f8e5);
+  background-size: 2000% 1000%;
+  position: relative;
+  animation: change 20s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
