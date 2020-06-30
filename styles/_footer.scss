@@ -1,0 +1,14 @@
+$black: #252422;
+$offwhite: #fffafa;
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  background-color: $black;
+  color: $offwhite;
+  svg {
+    max-height: 2rem;
+    max-width: 2rem;
+  }
+}

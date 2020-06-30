@@ -1,0 +1,16 @@
+$offwhite: #fffafa;
+
+#skills {
+  position: relative;
+  height: 120vh;
+  background-color: $offwhite;
+  ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  svg {
+    max-height: 2rem;
+    max-width: 2rem;
+  }
+}
