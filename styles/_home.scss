@@ -10,7 +10,7 @@ header {
       font-family: $serif;
       // font-family: 'Oswald', sans-serif;
       font-style: italic;
-      font-size: 3rem;
+      font-size: 3em;
       font-weight: 600;
       letter-spacing: 6px;
       text-transform: uppercase;
@@ -18,7 +18,7 @@ header {
       margin: 0;
     }
     p {
-      margin-right: 10%;
+      padding-right: 3em;
       font-style: italic;
       font-weight: 400;
     }
