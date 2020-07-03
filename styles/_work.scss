@@ -1,14 +1,17 @@
 $offwhite: #fffafa;
+$black: #252422;
 $serif: 'Playfair Display', serif;
 
 #work {
   position: relative;
-  // height: 110vh;
+  min-height: 110vh;
   width: 100%;
-  // background-color: $offwhite
+  h2 {
+    padding-top: 4rem !important
+  }
+
   #work-grid-container {
-    // border: 2px solid blue;
-    // display: grid;    
+  
     .grid-item {
       padding: 2em;
       margin: 8em 1em;
@@ -16,22 +19,26 @@ $serif: 'Playfair Display', serif;
       box-sizing: border-box;
       box-shadow: 1px 1px 15px 1px #b69f9f;
       border-radius: 1em;
+
       .content {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
       }
+
       h3 {
         margin: 0;
         text-align: center;
         font-family: $serif;
         font-style: italic;
       }
+      
       video {
         height: 15em;
         border-radius: 23px;
         margin: 2em;
       }
+      
       p {
         margin: 2em;
         font-style: italic;
@@ -40,9 +47,11 @@ $serif: 'Playfair Display', serif;
           height: 1em;
         }
       }
+
     &:first-child {
       margin-top: 3em;
     }
+    
     &:last-child {
       margin-bottom: 3em
     }

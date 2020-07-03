@@ -17,11 +17,11 @@ html {
 }
 
 h2 {
-  padding-top: 33vh;
+  padding-top: 12rem;
   margin: 0;
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.6em;
   letter-spacing: 2px;
 }
 
@@ -29,6 +29,10 @@ body {
   color: #252422;
   margin: 0 10% 0 20%;
   padding: 0;
+}
+
+path {
+  fill: #252422;
 }
 
 #navbar {
@@ -57,7 +61,7 @@ body {
   text-align: center;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
-  transform: translateX(4px);
+  transform: scale(1.1) translateX(5px);
 }
 
 header {
@@ -83,16 +87,13 @@ header p {
 
 #skills {
   position: relative;
-  height: 110vh;
+  min-height: 110vh;
   width: 100%;
-}
-#skills h2 {
-  padding-top: 24vh !important;
 }
 #skills ul {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin: 1rem 4rem 0 0;
   padding: 0;
 }
 #skills li {
@@ -101,6 +102,7 @@ header p {
   margin: 15px 20px;
   text-align: center;
   font-weight: 200;
+  font-style: italic;
 }
 #skills svg {
   max-height: 3rem;
@@ -109,7 +111,11 @@ header p {
 
 #work {
   position: relative;
+  min-height: 110vh;
   width: 100%;
+}
+#work h2 {
+  padding-top: 4rem !important;
 }
 #work #work-grid-container .grid-item {
   padding: 2em;
@@ -154,6 +160,25 @@ header p {
   position: relative;
   height: 110vh;
   width: 100%;
+}
+#about #about-container {
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-between;
+}
+#about #about-content {
+  border: 2px solid blue;
+}
+#about #about-content p {
+  padding-left: 60px;
+  font-style: italic;
+}
+#about #img-container {
+  align-self: center;
+}
+#about #img-container img {
+  width: 15em;
+  border-radius: 50%;
 }
 
 footer {

@@ -1,17 +1,15 @@
 $offwhite: #fffafa;
+$black: #252422;
 
 #skills {
   position: relative;
-  height: 110vh;
+  min-height: 110vh;
   width: 100%;
   // background-color: $offwhite;
-  h2 {
-    padding-top: 24vh !important;
-  }
   ul {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin: 1rem 4rem 0 0;
     padding: 0;
   }
   li {
@@ -20,6 +18,7 @@ $offwhite: #fffafa;
     margin: 15px 20px;
     text-align: center;
     font-weight: 200;
+    font-style: italic;
   }
   svg {
     max-height: 3rem;
