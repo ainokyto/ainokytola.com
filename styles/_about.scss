@@ -2,28 +2,53 @@ $offwhite: #fffafa;
 
 #about {
   position: relative;
-  height: 110vh;
+  min-height: 110vh;
   width: 100%;
-
-  #about-container {
-    border: 2px solid yellow;
-    display: flex;
-    justify-content: space-between;
+  h2 {
+    padding-top: 5rem !important
   }
 
+
+  #about-container {
+    // border: 2px solid yellow;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+  
+
   #about-content {
-    border: 2px solid blue;
+    align-self: center;
+    // border: 2px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     p {
-      padding-left: 60px;
+      padding: 0 60px;
       font-style: italic;
+      font-size: 1rem;
+      margin: 20px 0;
+      &.about span {
+        font-size: 0.5rem;
+        // color: red;
+        // display: none;
+        &:hover {
+          transition: 100ms ease-in;
+          font-size: 1rem;
+          // color: blue
+        }
+      }
     }
   }
 
   #img-container {
-    align-self: center;
+    // border: 2px solid red;
+    align-self: flex-start;
+    position: relative;
+    top: 1.5em;
     img {
-    width: 15em;
+    width: 12em;
     border-radius: 50%;
     }
+  }
   }
 }
