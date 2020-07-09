@@ -97,8 +97,10 @@ header p {
 
 #skills {
   position: relative;
-  min-height: 110vh;
   width: 100%;
+}
+#skills h2 {
+  padding-top: 4rem !important;
 }
 #skills ul {
   display: flex;
@@ -118,12 +120,13 @@ header p {
   max-width: 3rem;
 }
 #skills hr {
-  border: 1px dashed #252422;
+  border: 0;
+  border-bottom: 1px dashed #b69f9f;
   margin: 3rem 8rem 3rem 4rem;
 }
 #skills .more-skills {
   align-items: center;
-  padding: 0;
+  padding: 0 20px;
 }
 #skills .more-skills:last-child :last-child {
   margin-bottom: 20em;
@@ -136,7 +139,6 @@ header p {
 
 #work {
   position: relative;
-  min-height: 110vh;
   width: 100%;
 }
 #work h2 {

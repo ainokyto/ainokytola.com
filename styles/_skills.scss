@@ -3,9 +3,13 @@ $black: #252422;
 
 #skills {
   position: relative;
-  min-height: 110vh;
+  // min-height: 110vh;
   width: 100%;
   // background-color: $offwhite;
+  h2 {
+    padding-top: 4rem !important
+  }
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -25,14 +29,16 @@ $black: #252422;
     max-width: 3rem;
   }
   hr {
-    border: 1px dashed $black;
-    // width: 6rem;
+    border: 0;
+    border-bottom: 1px dashed #b69f9f;
+    // background: #b69f9f;
+    // border: 1px dashed #242424;
     margin: 3rem 8rem 3rem 4rem;
   }
   .more-skills {
     // justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 0 20px;
     &:last-child :last-child {
       // color: red;
       margin-bottom: 20em;
