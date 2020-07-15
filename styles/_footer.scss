@@ -23,12 +23,18 @@ footer {
     }
     li {
       margin: 1rem;
+      height: 2rem;
     }
     a.main {
       color: $black;
+      &:hover {
+        transition: 100ms ease-in;
+        font-size: 1.1em;
+      }
     }
     &.about {
       padding-left: 1px;
+
     }
   }
 }

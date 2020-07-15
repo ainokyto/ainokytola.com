@@ -124,12 +124,12 @@ header p {
   border-bottom: 1px dashed #b69f9f;
   margin: 3rem 8rem 3rem 4rem;
 }
+#skills hr:last-of-type {
+  margin-bottom: 20em;
+}
 #skills .more-skills {
   align-items: center;
   padding: 0 20px;
-}
-#skills .more-skills:last-child :last-child {
-  margin-bottom: 20em;
 }
 #skills .more-skills li {
   text-align: left;
@@ -261,9 +261,14 @@ footer ul svg:hover {
 }
 footer ul li {
   margin: 1rem;
+  height: 2rem;
 }
 footer ul a.main {
   color: #252422;
+}
+footer ul a.main:hover {
+  transition: 100ms ease-in;
+  font-size: 1.1em;
 }
 footer ul.about {
   padding-left: 1px;
@@ -271,7 +276,7 @@ footer ul.about {
 
 body {
   background: linear-gradient(-45deg, #cce1f2, #c6f8e5, #fcf7d5, #f9ded7, #f5cdde, #e2bef1);
-  background-size: 100% 900%;
+  background-size: 100% 990%;
   position: relative;
 }
 

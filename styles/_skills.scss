@@ -31,18 +31,16 @@ $black: #252422;
   hr {
     border: 0;
     border-bottom: 1px dashed #b69f9f;
-    // background: #b69f9f;
-    // border: 1px dashed #242424;
     margin: 3rem 8rem 3rem 4rem;
+    &:last-of-type {
+      // border-bottom: 1px dashed red;
+      margin-bottom: 20em;
+    }
   }
   .more-skills {
     // justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    &:last-child :last-child {
-      // color: red;
-      margin-bottom: 20em;
-    }
   }
 
   .more-skills li {
