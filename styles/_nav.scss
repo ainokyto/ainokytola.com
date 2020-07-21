@@ -29,3 +29,21 @@ $offwhite: #fffafa;
     }
   }
 }
+
+@media only screen 
+and (max-width: 750px) {
+  #navbar a {
+    // color: red;
+    padding: 10px 8px;
+    margin: 8px 0;
+  }
+}
+
+@media only screen 
+and (max-width: 530px) {
+  #navbar a {
+    // color: blue;
+    padding: 12px 8px;
+    margin: 10px 0;
+  }
+}

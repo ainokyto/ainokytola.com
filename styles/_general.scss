@@ -33,6 +33,7 @@ h2 {
 
 body {
   color: $black; 
+  
   margin: 0 10% 0 20%;
   padding: 0;
 }
@@ -48,4 +49,24 @@ ul {
 a {
   text-decoration: none;
   color: $black;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    // margin: 0 0 0 20%;
+    #container {
+      transform: translateX(10%);
+      width: 100vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  body {
+    // margin: 0 0 0 20%;
+    #container {
+      transform: translateX(25%);
+      width: 100vw;
+    }
+  }
 }

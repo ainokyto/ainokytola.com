@@ -17,6 +17,7 @@ $serif: 'Playfair Display', serif;
       margin: 8em 1em;
       background-color: $offwhite;
       box-sizing: border-box;
+      // box-sizing: content-box;
       box-shadow: 1px 1px 15px 1px #b69f9f;
       border-radius: 1em;
 
@@ -33,6 +34,12 @@ $serif: 'Playfair Display', serif;
         font-style: italic;
       }
       
+      hr {
+        border: 0;
+        border-bottom: 1px dashed #b69f9f;
+        margin: 2em 30% 0 30%;
+      }
+
       video {
         height: 15em;
         border-radius: 23px;
