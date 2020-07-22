@@ -4,4 +4,6 @@ Built with pure HTML and CSS.
 
 Next steps:
 
-* Media querys for Skills onward for max 750px.
+* Media querys for Contact
+* Sort out div heights for each section
+* Fit size to screen

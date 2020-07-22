@@ -3,7 +3,7 @@ $offwhite: #fffafa;
 
 footer {
   position: relative;
-  min-height: 110vh;
+  height: 110vh;
   width: 100%;
   ul  {
     margin: 0;
@@ -37,4 +37,16 @@ footer {
 
     }
   }
+}
+
+@media only screen and (max-width: 770px) {
+  #contact {
+    transform: translateY(16em);
+    height: 100vh;
+    margin-bottom: 12em;
+    h2 {
+      margin-top: 2em;
+    }
+  }
+  
 }

@@ -45,6 +45,9 @@ a {
 }
 
 @media only screen and (max-width: 750px) {
+  body {
+    background-size: 200% 1040% !important;
+  }
   body #container {
     transform: translateX(10%);
     width: 100vw;
@@ -169,24 +172,18 @@ a {
 #skills hr:last-of-type {
   margin-bottom: 20em;
 }
-#skills .more-skills {
+#skills .more-skills1, #skills .more-skills2 {
   align-items: center;
-  padding: 0 20px;
-}
-#skills .more-skills li {
-  text-align: left;
-  margin: 10px 20px 0 20px;
-  box-sizing: border-box;
 }
 @media only screen and (max-width: 770px) {
   #skills ul {
-    margin: 1rem -3rem 0 0;
+    margin: 1rem -3rem 0 -1rem;
   }
   #skills hr {
     margin: 3rem 4rem;
   }
   #skills .more-skills li {
-    margin: 10px 35px 0 20px;
+    margin: 10px 70px 5px 20px;
   }
 }
 
@@ -283,30 +280,31 @@ a {
 
 #about {
   position: relative;
-  min-height: 110vh;
+  height: 110vh;
   width: 100%;
 }
 #about h2 {
   padding-top: 5rem !important;
 }
+#about h4 {
+  font-size: 0.8em;
+  font-style: italic;
+}
 #about #about-container {
-  border: 2px solid yellow;
-  height: 60vh;
+  height: 40vh;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-grow: 1 2;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-3em, -2em);
 }
 #about #about-container #about-content {
-  transform: translateY(1em);
-  border: 2px solid blue;
+  transform: translateY(1.5em);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 #about #about-container #about-content p {
   padding: 0 60px;
-  font-style: italic;
   font-size: 1rem;
   margin: 20px 0;
 }
@@ -318,7 +316,6 @@ a {
   font-size: 1rem;
 }
 #about #about-container #img-container {
-  border: 2px solid red;
   position: relative;
   top: 1.5em;
 }
@@ -326,9 +323,28 @@ a {
   width: 12em;
   border-radius: 50%;
 }
+@media only screen and (max-width: 770px) {
+  #about #about-container {
+    flex-direction: column;
+    transform: translateY(1em) !important;
+  }
+  #about #about-content {
+    width: 100vw;
+    flex-direction: row !important;
+    transform: translateY(4em) !important;
+  }
+  #about #about-content p {
+    padding: 0.3em !important;
+    margin: 0 !important;
+  }
+  #about #img-container {
+    transform: translateX(-3em);
+  }
+}
+
 footer {
   position: relative;
-  min-height: 110vh;
+  height: 110vh;
   width: 100%;
 }
 footer ul {
@@ -363,9 +379,19 @@ footer ul.about {
   padding-left: 1px;
 }
 
+@media only screen and (max-width: 770px) {
+  #contact {
+    transform: translateY(16em);
+    height: 100vh;
+    margin-bottom: 12em;
+  }
+  #contact h2 {
+    margin-top: 2em;
+  }
+}
 body {
   background: linear-gradient(-45deg, #cce1f2, #c6f8e5, #fcf7d5, #f9ded7, #f5cdde, #e2bef1);
-  background-size: 100% 990%;
+  background-size: 100% 996%;
   position: relative;
 }
 
