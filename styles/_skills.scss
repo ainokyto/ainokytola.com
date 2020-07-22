@@ -56,4 +56,17 @@ $black: #252422;
     // box-shadow: 1px 1px 15px 1px #b69f9f;
     // border-radius: 50%;
   }
+
+  @media only screen and (max-width: 770px) {
+    ul {
+      margin: 1rem -3rem 0 0;
+    }
+    hr {
+      margin: 3rem 4rem;
+    }
+    .more-skills li {
+      // border: 2px solid red;
+      margin: 10px 35px 0 20px;
+    }
+  }
 }

@@ -1,9 +1,10 @@
 $offwhite: #fffafa;
 $serif: 'Playfair Display', serif;
 
-header {
+#home {
   position: relative;
   height: 110vh;
+  transform: translateY(20%);
   width: 100%;
   // box-sizing: border-box;
   // background-color: $offwhite;
@@ -27,18 +28,18 @@ header {
 }
 
 @media only screen and (max-width: 750px) {
-  header {
-    border: 2px solid red;
+  #home {
     padding-top: 0;
-    transform: translateY(20%);
-    // width: 100vw;
+    margin-bottom: 20em;
+    height: 100vh;
 
     h1 {
-      font-size: 2em;
+      font-size: 2.3em;
     }
     p {
       font-size: 1.1em;
       padding-right: 0 !important;
+      
     }
   }
 }
