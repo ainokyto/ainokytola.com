@@ -2,8 +2,6 @@
 
 Built with pure HTML and CSS. 
 
-Next steps:
+To Do:
 
-* Media querys for Contact
-* Sort out div heights for each section
-* Fit size to screen
+* Fit size to screen responsively
