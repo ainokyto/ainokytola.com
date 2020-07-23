@@ -4,7 +4,7 @@ $serif: 'Playfair Display', serif;
 #home {
   position: relative;
   height: 110vh;
-  transform: translateY(20%);
+  // transform: translateY(20%);
   width: 100%;
   // box-sizing: border-box;
   // background-color: $offwhite;
@@ -16,8 +16,9 @@ $serif: 'Playfair Display', serif;
       font-weight: 600;
       letter-spacing: 6px;
       text-transform: uppercase;
-      padding-top: 30vh;
+      padding-top: 50vh;
       margin: 0;
+
     }
     p {
       padding-right: 3em;
